@@ -218,12 +218,25 @@ input[type=submit] {
 
  /*media queries*/
 
- @media screen and(max-width: 980px){
-   #masterhead {
-     position: static;
-   }
- }
+
+
+@media only screen and (max-width: 980px){
+  nav{
+    position:static;
+  }
+}
 
 @media screen and (max-width: 768px){
-
+  nav{
+    position:static;
+  }
 }
+
+@media screen and (max-width: 640px){
+  nav{
+    position:static;
+  }
+  #logo{
+    width:100%;
+  }
+ }
